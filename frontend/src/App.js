@@ -1,14 +1,13 @@
-import './App.css';
+import React from 'react'
+import {
+  RouterProvider,
+} from "react-router-dom";
+import { router } from './rotas';
 
 function App() {
-
-  var texto = "um texto"
-
   return (
-    <div className="App">
-      { texto }
-    </div>
-  );
+    <RouterProvider router={router} />
+  )
 }
 
-export default App;
+export default App

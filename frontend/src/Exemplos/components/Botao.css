@@ -1,0 +1,20 @@
+.button{
+    width: 100px;
+    height: 40px;
+    border-radius: 16px;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: aqua;
+}
+#purple{
+    background-color: purple;
+}
+#orange{
+    background-color: orange;
+}
+#white{
+    background-color: white;
+}
