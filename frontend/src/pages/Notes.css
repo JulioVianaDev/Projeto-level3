@@ -23,3 +23,13 @@
   justify-content: center;
   padding: 50px;
 }
+.svgs{
+  width:32px;
+  height:32px
+}.svgs-edit{
+  width:22px;
+  height:22px
+}
+.div-svgs{
+  display:flex
+}
