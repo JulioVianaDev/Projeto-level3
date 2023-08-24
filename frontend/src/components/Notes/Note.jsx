@@ -2,6 +2,8 @@ import React from 'react'
 import trash from '../../svgs/trash.svg'
 import edit from '../../svgs/edit.png'
 import "./Note.css"
+import {BsTrash3Fill} from 'react-icons/bs';
+import {BiSolidEdit} from 'react-icons/bi'
 function Note({n}) {
   return (
     <div className='note'>
@@ -14,8 +16,8 @@ function Note({n}) {
           {n.date}
         </div>
         <div className='div-svgs'>
-          <div><img className="svgs" src={trash}/></div>
-          <div><img className="svgs-edit" src={edit}/></div>
+          <div><BsTrash3Fill size={26} color='red'/></div>
+          <div><BiSolidEdit size={26} color="purple"/></div>
         </div>
       </div>
     </div>

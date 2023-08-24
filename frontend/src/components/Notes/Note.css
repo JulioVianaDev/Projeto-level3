@@ -20,13 +20,16 @@
 
 .svgs{
   width:32px;
-  height:32px
+  height:56px;
 }.svgs-edit{
   width:22px;
   height:22px
 }
 .div-svgs{
   display:flex
+}
+.div-svgs svg{
+  width: 50px;
 }
 .noteRodape{
   display: flex;
@@ -37,4 +40,8 @@
 .noteRodape div{
   margin-inline: 10px;
   margin-bottom: 5px;
+}
+.react-icons {
+  vertical-align: middle;
+  width: 100px;
 }
