@@ -4,7 +4,7 @@ import edit from '../../svgs/edit.png'
 import "./Note.css"
 import {BsTrash3Fill} from 'react-icons/bs';
 import {BiSolidEdit} from 'react-icons/bi'
-function Note({n}) {
+function Note({n,abrirOModal}) {
   return (
     <div className='note'>
       <div>
@@ -17,7 +17,7 @@ function Note({n}) {
         </div>
         <div className='div-svgs'>
           <div><BsTrash3Fill size={26} color='red'/></div>
-          <div><BiSolidEdit size={26} color="purple"/></div>
+          <div onClick={()=>abrirOModal()}><BiSolidEdit size={26} color="purple"/></div>
         </div>
       </div>
     </div>
